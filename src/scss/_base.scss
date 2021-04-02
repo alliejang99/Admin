@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
+  color: #fff;
+  height: 100vh;
+}
+
+li,
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  outline: none;
+  cursor: pointer;
+}
