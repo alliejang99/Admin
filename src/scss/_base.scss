@@ -4,12 +4,14 @@
   cursor: default;
 }
 
-html,
-body {
-  position: relative;
-  overflow-x: hidden;
+html, body {
+
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+  overflow-y: auto;
   color: #fff;
-  height: 100vh;
+  background: #ededed;
 }
 
 li,
@@ -28,7 +30,15 @@ textarea {
   border: none;
   background: rgba(0, 0, 0, 0);
   box-shadow: none;
+  cursor: pointer;
 }
+select {
+  -moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+
 button,
 input {
   overflow: visible;
@@ -49,4 +59,5 @@ a {
   font-style: normal;
   outline: none;
   cursor: pointer;
+  color: #1e1e1e;
 }

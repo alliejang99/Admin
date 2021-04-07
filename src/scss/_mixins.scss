@@ -1,0 +1,59 @@
+// 사용: @include (name)
+
+/* UerKocht rectangle */
+@mixin uerRec {
+  width: 140px;
+  height: 156px;
+  border-radius: 8px;
+}
+
+/* Basic rectangle */
+@mixin basicRec {
+  width: 522px;
+  height: 240px;
+  max-width: 522px;
+  min-width: 270px;
+  max-height: 240px;
+  min-height: 240px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Lato';
+  color: #1e1e1e;
+  background: #fff;
+  overflow: hidden;
+}
+
+/* display: flex*/
+@mixin centerSB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* plus */
+@mixin bar {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 20px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* contents Line */
+@mixin line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background: #c4c4c4;
+}
+
